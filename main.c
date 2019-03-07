@@ -7,7 +7,7 @@ int main()
     {
         mav(0, 1500); //rotates the motor so the arm can extend outward 
         msleep(50);
-        printf("%d/n", get_postition_counter(0)) // counts the postition the motor is at
+        printf("%d/n", get_postition_counter(0)); // counts the postition the motor is at
     }
     ao(); //will shut all motors off   
     return 0;
